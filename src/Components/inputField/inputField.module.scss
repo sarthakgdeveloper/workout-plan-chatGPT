@@ -1,0 +1,51 @@
+label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #222;
+  word-wrap: break-word;
+  display: block;
+  // white-space: nowrap;
+  // width: 14rem;
+  // overflow-wrap: break-word;
+  // word-wrap: break-word;
+  // word-break: break-word;
+}
+
+input,
+select {
+  outline: none;
+  padding: 0.6rem;
+  border-radius: 0.8rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 214px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+span {
+  position: absolute;
+  bottom: -1.4rem;
+  color: red;
+  margin: 0.4rem;
+  font-size: 0.6rem;
+}
